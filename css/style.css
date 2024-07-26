@@ -2,7 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(19, 18, 18);
+  background-color: rgb(255, 255, 255);
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: large;
   font-weight: bold;
@@ -10,8 +10,8 @@
 }
 
 nav {
-  background-color: #121010;
-  color: rgb(239, 235, 235);
+  background-color: #ffffff;
+  color: rgb(4, 4, 4);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 60%;
@@ -47,7 +47,7 @@ nav .array-inputs p {
 nav .array-inputs #a_generate {
   background-color: transparent;
   outline: none;
-  color: white;
+  color: rgb(21, 20, 20);
   font-size:medium;
   margin-top: 20px;
   padding: 2% 0% 0% 0%;
@@ -69,7 +69,7 @@ nav .header_right {
 
 nav .header_right .nav-heading {
   display: inline-block;
-  color: rgb(249, 231, 111);
+  color: rgb(9, 9, 9);
   font-size: xxx-large;
   padding: 3% 0%;
 }
@@ -86,14 +86,14 @@ nav .header_right .algos {
 nav .header_right .algos button {
   background-color: transparent;
   border: none;
-  color: white;
+  color: rgb(17, 16, 16);
   outline: none;
   padding: 5% 0%;
   font-size: large;
 }
 
 nav .header_right .algos button:hover {
-  background-color: rgb(51, 51, 53);
+  background-color: rgb(224, 224, 235);
   border-radius: 10px;
   cursor: pointer;
 }
@@ -109,17 +109,17 @@ nav .header_right .algos .butt_locked:hover {
 }
 
 nav .header_right .algos .butt_selected {
-  background-color: white;
-  color: rgb(8, 8, 8);
+  background-color: rgb(7, 7, 7);
+  color: rgb(194, 191, 191);
 }
 
 nav .header_right .algos .butt_selected:hover {
-  background-color: white;
+  background-color: rgb(6, 6, 6);
   cursor: pointer;
 }
 
 nav .header_right .algos .butt_unselected:hover {
-  background-color: blue;
+  background-color: rgb(190, 190, 196);
   cursor: pointer;
 }
 
@@ -144,7 +144,7 @@ section .Complexity_Containers .Pair_Definitions p {
 
 section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
   font-size: medium;
-  color: white;
+  color: rgb(10, 9, 9);
   text-transform: none;
 }
 
@@ -153,7 +153,7 @@ section .Complexity_Containers .Pair_Definitions p.Sub_Heading,
 #Time_Average,
 #Time_Best,
 #Space_Worst{
-  color: white;
+  color: rgb(14, 13, 13);
 }
 
 
@@ -163,7 +163,7 @@ section #Info_Cont1 {
 
 section #Info_Cont1 h3 {
   text-decoration: underline;
-  color: white;
+  color: rgb(19, 16, 16);
 }
 
 section #array_container {
@@ -181,7 +181,7 @@ section #Info_Cont2 {
 
 section #Info_Cont2 h3 {
   text-decoration: underline;
-  color: white;
+  color: rgb(13, 12, 12);
 }
 
 
